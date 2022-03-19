@@ -1,0 +1,28 @@
+body{
+    /* text-align: center; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 300px;
+    justify-content: center;
+}
+
+.display{
+    height: 50px;
+    width: 290px;
+    border: 2px solid black;
+    margin: 1px;
+
+
+}
+
+.block{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-color: grey;
+    /* margin: 5px; */
+}
